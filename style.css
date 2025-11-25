@@ -9,28 +9,19 @@ body{
     font-family:  sans-serif;
 }
 #form{
-    border-top-left-radius: 30px;
-    border-top-right-radius:30px;
+  
+    color:rgba(0, 0, 0, 0.789);
     margin:0px auto;
     width:fit-content;
     padding:5px 33px;
     background: linear-gradient(to bottom, rgb(226, 251, 113), rgb(63, 204, 161));
    font-weight: 700;
 }
-#appBody{
- border-bottom-left-radius: 30px;
-    border-bottom-right-radius:30px;
-    margin:0px auto;
-    /* width:fit-content; */
-    padding:0px 50px;
-    background: linear-gradient(to bottom, rgb(82, 204, 168),rgb(135, 200, 89));
-   font-weight: 700;
-}
 #container{
     margin: 0 auto;
-    border-radius: 30px;
+    border-radius: 14px;
     overflow: hidden;
-    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.567);
+    box-shadow: 4px 5px 9px rgba(1, 0, 0, 0.567);
 }
 
 #input{
@@ -73,6 +64,7 @@ margin:0px auto;
     margin:0px auto;
 }
 #emoji{
+    padding:10px;
     margin: 0px auto;
     text-shadow: 0px 2px 1px black;
     font-weight: bold;
@@ -83,6 +75,8 @@ margin:0px auto;
     font-size:14px;
 }
 #humidity{
+    padding :9px;
+    font-size:12px;
 margin: 0px auto;
 }
 #temp{
