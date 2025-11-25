@@ -1,0 +1,19 @@
+body{
+
+    padding: 20px;
+    background-color: rgba(127, 170, 158, 0.723);
+    height:100vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family:  sans-serif;
+}
+#form{
+    border-top-left-radius: 30px;
+    border-top-right-radius:30px;
+    margin:0px auto;
+    width:fit-content;
+    padding:5px 20px;
+    background: linear-gradient(to bottom, rgb(239, 255, 170), rgb(113, 187, 86));
+   font-weight: 700;
+}
