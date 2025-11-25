@@ -27,7 +27,7 @@ const info = await data(input);
 console.log(info);
 const celcius = `${(info.main.temp - 273).toFixed(2)}°C`
 temp.textContent = celcius;
-humidity.textContent = `${info.main.humidity}%` ;
+humidity.textContent = `Humidity : ${info.main.humidity}%` ;
 city.textContent = input;
 weather.textContent = info.weather[0].description;
 emoji.textContent = emoj();

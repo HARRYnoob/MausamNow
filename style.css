@@ -1,7 +1,7 @@
 body{
 
     padding: 20px;
-    background-color: rgba(50, 50, 50, 0.282);
+    background:  linear-gradient(to bottom,rgb(159, 211, 196), rgb(238, 252, 176) );
     height:100vh;
     display: flex;
     text-align: center;
@@ -9,7 +9,7 @@ body{
     font-family:  sans-serif;
 }
 #form{
-  
+    min-width: 400px;
     color:rgba(0, 0, 0, 0.789);
     margin:0px auto;
     width:fit-content;
